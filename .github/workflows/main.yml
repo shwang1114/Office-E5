@@ -40,4 +40,4 @@ jobs:
       env:
         BARK_URL: ${{ vars.BARK_URL }}
       run: |
-        curl "BARK_URL"
+        curl "$BARK_URL"
